@@ -29,7 +29,10 @@ function findBy(array, findFn){
       return array;
     }
     if(i === array.length - 1){
-      return null;
+      if(findFn != array[i]){
+        return null;
+      }
+      
     }
   }
 }
