@@ -16,8 +16,8 @@ function keepGoing(array, changeValue, stopValue){
     if(array[i] === stopValue){
       continue
     }
-    
+
     array[i] = changeValue
-    
+
   }
 }
