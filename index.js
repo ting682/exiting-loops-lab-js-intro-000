@@ -27,7 +27,7 @@ function findBy(array, findFn){
     debugger
     console.log(findFn(array[i]))
     if(findFn(array[i])){
-      return array;
+      return array[i];
     }
     else if (i != array.length - 1){
       continue;
