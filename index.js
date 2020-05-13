@@ -20,4 +20,5 @@ function keepGoing(array, changeValue, stopValue){
     array[i] = changeValue
 
   }
+  return array;
 }
