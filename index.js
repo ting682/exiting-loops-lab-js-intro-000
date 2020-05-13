@@ -25,7 +25,7 @@ function keepGoing(array, changeValue, stopValue){
 function findBy(array, findFn){
   for (var i = 0; i < array.length; i++) {
     debugger
-    if(findFn === array[i]){
+    if(findFn() === array[i]){
       return array;
     }
     if(i === array.length - 1){
